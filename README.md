@@ -1,5 +1,7 @@
 # ROS WEB
 
+Repositorio didáctico para la configuración y el desligue de una aplicación web que trabaje con ROS (Robot Operating System))
+
 **INTRODUCCION**
 
 El presente repositorio presenta el desarrollo de un instructivo el cual se creó con el fin de orientar a un usuario el manejo de una página web, llamada ROS WEB, que nos permite una conección directa con ROS y su simulador Gazebo. Este usuario podrá conocer y tener una pequeña introducción al funcionamiento e implementación del ROS con la posibilidad de hacer las respectivas simulaciones bajo el robot TurtleBot3 por defecto. 
