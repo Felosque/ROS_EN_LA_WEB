@@ -1,7 +1,5 @@
-# ROS_EN_LA_WEB
-Repositorio didáctico para la configuración y el desligue de una aplicación web que trabaje con ROS (Robot Operating System))
+# ROS WEB
 
-##ROS WEB
 **INTRODUCCION**
 
 El presente repositorio presenta el desarrollo de un instructivo el cual se creó con el fin de orientar a un usuario el manejo de una página web, llamada ROS WEB, que nos permite una conección directa con ROS y su simulador Gazebo. Este usuario podrá conocer y tener una pequeña introducción al funcionamiento e implementación del ROS con la posibilidad de hacer las respectivas simulaciones bajo el robot TurtleBot3 por defecto. 
@@ -10,7 +8,7 @@ En las instrucciones de uso de nuestra Aplicación web, se explicaran los códig
 
 **OBJETIVO GENERAL**
 
-Desarrollar un instructivo de orientación para la implementación de una página web cuya funcionalidad es una comunicación directa con ROS utilizando** Rosbridge Server** como servidor de comunicaciones y la librería Roslibjs como cliente web.
+Desarrollar un instructivo de orientación para la implementación de una página web cuya funcionalidad es una comunicación directa con ROS utilizando **Rosbridge Server** como servidor de comunicaciones y la librería Roslibjs como cliente web.
 
 **OBJETIVOS ESPECÍFICOS**
 - Profundizar en los conceptos y fundamentos de ROS
