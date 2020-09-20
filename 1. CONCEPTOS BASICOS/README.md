@@ -28,9 +28,13 @@ Es una herramienta usada para ejecutar múltiples nodos ROS de forma local o rem
 
 # INSTALACION DEL ROS
 
-Para iniciar, Ros debe de ser instalado el sistema operativo Ubuntu, es recomendable usarlas versiones 18.04 para implementar el ROS Melodic o 16.04 para implementar el ROS Kinetic.
+Para iniciar, Ros debe de ser instalado el sistema operativo Ubuntu, es recomendable usarlas versiones 18.04 para implementar el ROS Melodic o 16.04 para implementar el ROS Kinetic. A continuacion se encuentran los respectivos instructivos de instalacion de las distintas versiones de ROS:
 
+- Melodic:
+`<link>` : <http://wiki.ros.org/melodic/Installation/Ubuntu>
 
+- Kinetic
+`<link>` : <http://wiki.ros.org/kinetic/Installation/Ubuntu>
 
 
 
