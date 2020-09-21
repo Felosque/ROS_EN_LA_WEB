@@ -25,6 +25,5 @@ La arquitectura se basa en Cliente - Servidor, el siguiente esquema muestra la c
 </p>
 
 **REQUISITOS**
-
-    - Tener instalado una versión de ROS compatible con Rosbridge Server, en este tutorial usaremos **Ros Melodic**
-    - Contar con una versión de Python 2.7 o superior.
+ - Tener instalado una versión de ROS compatible con Rosbridge Server, en este tutorial usaremos **Ros Melodic**
+ - Contar con una versión de Python 2.7 o superior.
