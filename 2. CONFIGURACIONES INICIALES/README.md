@@ -7,11 +7,20 @@ En el siguiente topico vamos a realizar las configuraciones que debemos tener an
 
 # MENU
 
-- [**1. Descargar e instalar rosbridge server**](#1-descargando-rosbridge-server)
-- [**2. Descargando roslibjs**]()
+- [**1. Creado nuestra pagina**]()
+- [**2. Descargar e instalar rosbridge server**](#1-descargando-rosbridge-server)
+- [**3. Descargando roslibjs**]()
+
+# 1. Creando nuestra pagina
+Nuestra primera configuración será crear una carpeta en donde guardaremos todo lo relacionado nuestra pagina web. Para ello nos ubicamos donde queremos guardar el proyecto y seguidamente crearemos la siguiente jerarquia de carpetas:
+
+<p align='center'>
+    <img src="../CREDITOS/IMG/configuraciones-iniciales/creando-carpetas.png" alt="drawing"/>
+    <p align='center'>Imagen 1. Creación de carpetas necesarias para el proyecto</p>
+</p>
 
 
-# 1. Descargando rosbridge server
+# 2. Descargando rosbridge server
 Para la descarga de rosbridge solo será necesario una instrucción en nuestra consola de comandos siempre y cuando cumplamos con los requisitos del tutorial que se encuentran en el readme de la carpeta raiz de este mismo repositorio. Para instalar rosbridge ejecutamos:
 
     sudo apt-get install ros-<rosdistro>-rosbridge-server
@@ -27,14 +36,15 @@ Si todo ha salido bien, la salida debería ser algo como esto:
 
 <p align='center'>
     <img src="../CREDITOS/IMG/configuraciones-iniciales/consola-rosbridge.gif" alt="drawing"/>
-    <p align='center'>Imagen 1. Ejecutando Rosbridge Server</p>
+    <p align='center'>Imagen 2. Ejecutando Rosbridge Server</p>
 </p>
 
 
-# 1. Descargando roslibjs
+# 3. Descargando roslibjs
 Para descargar roslibjs, existen dos formas de hacerlo. Mediante una etiqueta \<script\> en nuestra pagina web usando los repositorios oficiales de (http://robotwebtools.org/) o por el contrario, podemos descargar todo el repositorio oficial que se encuentra en github (http://github.com/RobotWebTools/roslibjs). Debes pensar bien cual metodo utilizar, ya que por ejemplo, si queremos configurar un robot que no se encuentra conectado a internet, la primera opción **no** nos sirve, si por el contrario el robot sí tiene acceso a internet, podemos evitar descargar todo el paquete de roslibjs.
 
-**1. Primera Opción (Repositorio Remoto)**
+**Repositorio Remoto (Opción 1)**
+
 Si hemos optado por la primera opción, solo tendremos que agregar la siguiente etiqueta en cada pagina de nuestra aplicación web:
 ```
 <head>
@@ -44,6 +54,7 @@ Si hemos optado por la primera opción, solo tendremos que agregar la siguiente 
 ```
 Esto nos permite acceder a los servidores de robotwebtools y agregar el repositorio de manera remota. De esta manera no tendremos que tener las librerias descargadas, aunque debemos tener en cuenta que las librerias se actualizarán solas, y puede haber casos en que el codigo que creemos quede inservible.
 
-**1. Segunda Opción (Repositorio Local)**
+**Repositorio Local (Opción 2)**
+
 
 
