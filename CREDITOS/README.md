@@ -4,7 +4,8 @@
  - [ ] 
 
 **WEBGRAFÍA**
- - Cómo utilizar SimpleHTTPServer
+ - Cómo utilizar SimpleHTTPServer `<link>` : <https://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver>
+
 
 **PROGRAMAS AYUDANTES**
  - [ ] Lucidchart (Permitirnos hacer graficos del proyecto)
