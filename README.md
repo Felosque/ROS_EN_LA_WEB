@@ -18,6 +18,7 @@ Desarrollar un instructivo de orientación para la implementación de una págin
 - Vinculación entre ROS con la página web
 
 **ARQUITECTURA**
+
 La arquitectura se basa en Cliente - Servidor, el siguiente esquema muestra la como se da la transmisión de mensajes por protocolos HTTP:
 <p align='center'>
     <img src="./CREDITOS/IMG/Arquitectura.png" alt="drawing"/>
