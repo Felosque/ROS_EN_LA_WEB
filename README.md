@@ -4,7 +4,7 @@
 
 # **INTRODUCCIÓN**
 
-El repositorio se crea para orientar a un usuario sobre el uso de la comunicación entre ROS y una pagina web. Contamos con una secuencia de carpetas en las cuales se explicará paso a paso desde la instalación hasta como comunicar ROS atravez de **rosbridge** y la libreria de Javascript **roslibjs**. Además se cuenta con carpetas sobre preguntas frecuentes y conceptos basicos de la ingeniería que conlleva crear una pagina web, esto con el fin de solucionar la mayor serie de dudas al lector.
+El repositorio se crea para orientar a un usuario sobre el uso de la comunicación entre ROS y una pagina web. Contamos con una secuencia de carpetas en las cuales se explicará paso a paso desde la instalación hasta como comunicar ROS a través de **rosbridge** y la libreria de Javascript **roslibjs**. Además se cuenta con carpetas sobre preguntas frecuentes y conceptos basicos de la ingeniería que conlleva crear una pagina web, esto con el fin de solucionar la mayor serie de dudas al lector.
 
 # **OBJETIVO GENERAL**
 
