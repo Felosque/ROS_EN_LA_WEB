@@ -75,3 +75,7 @@ Clientes y servidores se comunican intercambiando mensajes individuales (en cont
 
 SimpleHttpServer - Manejador de solicitudes HTTP simple
 
+El módulo SimpleHTTPServer que viene con Python es un servidor HTTP simple que proporciona controladores de solicitud GET y HEAD estándar. Una ventaja del servidor HTTP integrado es que no es necesario instalar ni configurar nada, lo único que se necesita es tener Python instalado.
+
+Eso lo hace perfecto para usar cuando necesita un servidor web rápido en ejecución y no quiere meterse con la configuración de Apache. Puede usar esto para convertir cualquier directorio de su sistema en el directorio de su servidor web.
+
