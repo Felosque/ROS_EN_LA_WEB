@@ -8,8 +8,9 @@ El siguiente topico relata algunos conceptos basicos que se utilizarán a la hor
 # MENÚ
  - [**Instalar Ros (Melodic)**](#instalación-del-ros)
  - [**¿Qué es Ros?**](#qué-es-ros)
+ - [**Herramientas del ROS**](#herramientas-del-ros)
  - [**¿Qué es Rosbridge?**](#qué-es-rosbridge)
- - [**¿Qué es HTTP?**](#instalacion-del-ros)
+ - [**¿Qué es HTTP?**](#qué-es-http)
  - [**Python - SimpleHttpServer**](#instalacion-del-ros)
  - [****](#instalacion-del-ros)
 
@@ -28,6 +29,8 @@ Para iniciar, Ros debe de ser instalado el sistema operativo Ubuntu, es recomend
 Sistema Operativo Robótico (en inglés Robot Operating System, ROS) es un framework para el desarrollo de software para robots que provee la funcionalidad de un sistema operativo. ROS está basado en una arquitectura de grafos donde el procesamiento toma lugar en nodos que pueden recibir, enviar y multiplexar mensajes de sensores, controles, estados, planificaciones y actuadores, entre otros.
 
 La funcionalidad del núcleo ROS se expande con una variedad de herramientas que permiten a los desarrolladores: visualizar y recopilar información, navegar de manera sencilla la estructura de paquetes y crear código para automatizar tareas complejas y otros procesos de configuración. La suma de estas herramientas aumentan las posibilidades de los sistemas que utilizan ROS, proveyendo a estos de soluciones simples a tareas comunes en el desarrollo dentro de la robótica. Estas herramientas son provistas por medio de paquetes como otro algoritmo, pero a diferencia de brindar implementaciones de hardware o algoritmos para tareas del robot, estos paquetes proveen tareas y herramientas separadas que las incluidas por el núcleo de la mayoritaria de las instalaciones modernas de ROS.
+
+# HERRAMIENTAS DEL ROS
 
 - rviz:
 Es una herramienta de simulación y visualización 3d para robots, el ambiente en el que estos se desempeñan y la información de sensores que estos generan dentro de este. Es altamente configurable y posee distintos tipos de plugins y formatos de visualización.
@@ -58,9 +61,15 @@ Segun la pagina oficial de ROS, Rosbridge proporciona una funcionalidad JSON API
 A continuacion se encuentra el instructivo el cual se divide en 3 partes fundamentales como son su protocolo, su implemenacion y para finalizar su forma de instalacion:
 `<link>` : <http://wiki.ros.org/rosbridge_suite>
 
+# ¿QUÉ ES HTTP?
 
+El HTTP es una de las 3 tecnologías básicas desarrolladas para la creación de la web en el año 1990 por Tim Berners Lee. La web como sistema de gestión de información para la transmisión de datos a través de Internet necesita para su funcionamiento de 3 elementos básicos: el HTTP, el URL y el HTML.
 
+HTTP de HyperText Transfer Protocol (Protocolo de transferencia de hipertexto) es un protocolo de transferencia donde se utiliza un sistema mediante el cual se permite la transferencia de información entre diferentes servicios y los clientes que utilizan páginas web. Es la base de cualquier intercambio de datos en la Web, y un protocolo de estructura cliente-servidor, esto quiere decir que una petición de datos es iniciada por el elemento que recibirá los datos (el cliente), normalmente un navegador Web. Así, una página web completa resulta de la unión de distintos sub-documentos recibidos, como, por ejemplo: un documento que especifique el estilo de maquetación de la página web (CSS), el texto, las imágenes, vídeos, scripts, etc...    
 
+![](https://media.prod.mdn.mozit.cloud/attachments/2016/08/09/13677/d031b77dee83f372ffa4e0389d68108b/Fetching_a_page.png)
+
+Clientes y servidores se comunican intercambiando mensajes individuales (en contraposición a las comunicaciones que utilizan flujos continuos de datos). Los mensajes que envía el cliente, normalmente un navegador Web, se llaman peticiones, y los mensajes enviados por el servidor se llaman respuestas.
 
 
 
