@@ -1,6 +1,6 @@
-# ROS WEB
-
-Repositorio didáctico para la configuración y el desligue de una aplicación web que trabaje con ROS (Robot Operating System))
+<p align='center'>
+    <img src="./CREDITOS/IMG/Titulo_Proyecto.png" alt="drawing"/>
+</p>
 
 **INTRODUCCIÓN**
 
@@ -11,11 +11,6 @@ En las instrucciones de uso de nuestra Aplicación web, se explicaran los códig
 **OBJETIVO GENERAL**
 
 Desarrollar un instructivo de orientación para la implementación de una página web cuya funcionalidad es una comunicación directa con ROS utilizando **Rosbridge Server** como servidor de comunicaciones y la librería Roslibjs como cliente web.
-
-**OBJETIVOS ESPECÍFICOS**
-- Profundizar en los conceptos y fundamentos de ROS
-- Desarrollar una página web sencilla e interactiva
-- Vinculación entre ROS con la página web
 
 **ARQUITECTURA**
 
