@@ -81,3 +81,29 @@ Ahora que hemos creado nuestro archivo de conexión, debemos testear que sí est
 Una vez que hemos realizado todos los pasos correctamente, solo nos falta testear que todo funcione.
 
 # 3. Pruebas de conexión
+Para hacer las pruebas y verificar que la conexión no tenga problemas, lo primero que haremos será ejecutar rosbridge server con el siguiente comando:
+
+        roslaunch rosbridge_server rosbridge_websocket.launch
+
+<p align='center'>
+    <img src="../CREDITOS/IMG/configuraciones-iniciales/consola-rosbridge.gif" alt="drawing"/>
+    <p align='center'>Imagen 4. Ejecutando Rosbridge Server</p>
+</p>
+
+Una vez que tenemos ejecutando el servidor de rosbridge, vamos a poner en linea nuestra pagina web, para ello ejecutamos el siguiente comando en nuestra carpeta raíz del proyecto:
+
+	python -m SimpleHTTPServer 7000;
+    
+<p align='center'>
+    <img src="../CREDITOS/IMG/configuraciones-iniciales/demo-simplehttpserver.gif" alt="drawing"/>
+    <p align='center'>Imagen 5. Abriendo nuestra pagina web por SimpleHTTPServer</p>
+</p>
+
+Entraremos a la dirección localhost:7000 en cualquier navegador, en teoría todo debió funcionar correctamente, ahora lo que haremos será inspeccionar la pagina web y nos encontraremos con un mensaje en consola.
+
+<p align='center'>
+    <img src="../CREDITOS/IMG/conexion-ros/verificar-conexion.gif" alt="drawing"/>
+    <p align='center'>Imagen 6. Abriendo nuestra pagina web por SimpleHTTPServer</p>
+</p>
+
+El mensaje debería ser: "¡Me he conectado a ROS satisfactoriamente!", de ser así hemos realizado todos los pasos correctamente y ya tenemos una conexión directa con rosbridge server.
