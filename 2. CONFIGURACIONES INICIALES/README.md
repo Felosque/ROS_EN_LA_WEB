@@ -19,6 +19,13 @@ Nuestra primera configuración será crear una carpeta en donde guardaremos todo
     <p align='center'>Imagen 1. Creación de carpetas necesarias para el proyecto</p>
 </p>
 
+Una vez creado todas las carpetas, procedemos a editar el archivo index.html (si no lo ha creado, creelo). Lo unico que haremos será crear la estructura base de HTML que nos ayudará para comezar. El archivo deberá quedar algo así:
+
+<p align='center'>
+    <img src="../CREDITOS/IMG/configuraciones-iniciales/estructura-html.png" alt="drawing"/>
+    <p align='center'>Imagen 2. Código del archivo index.html</p>
+</p>
+
 
 # 2. Descargando rosbridge server
 Para la descarga de rosbridge solo será necesario una instrucción en nuestra consola de comandos siempre y cuando cumplamos con los requisitos del tutorial que se encuentran en el readme de la carpeta raiz de este mismo repositorio. Para instalar rosbridge ejecutamos:
