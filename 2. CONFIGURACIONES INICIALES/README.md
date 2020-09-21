@@ -5,7 +5,7 @@
 # INTRODUCCIÓN
 En el siguiente topico vamos a realizar las configuraciones que debemos tener antes de comenzar a comunicar a ROS con una pagina web. 
 
-# MENU
+# MENÚ
 
 - [**1. Creado nuestra pagina**](#1-creando-nuestra-pagina)
 - [**2. Descargar e instalar rosbridge server**](#2-descargando-rosbridge-server)
