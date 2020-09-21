@@ -2,7 +2,7 @@
 
 Repositorio didáctico para la configuración y el desligue de una aplicación web que trabaje con ROS (Robot Operating System))
 
-**INTRODUCCION**
+**INTRODUCCIÓN**
 
 El presente repositorio presenta el desarrollo de un instructivo el cual se creó con el fin de orientar a un usuario el manejo de una página web, llamada ROS WEB, que nos permite una conección directa con ROS y su simulador Gazebo. Este usuario podrá conocer y tener una pequeña introducción al funcionamiento e implementación del ROS con la posibilidad de hacer las respectivas simulaciones bajo el robot TurtleBot3 por defecto. 
 
@@ -16,3 +16,14 @@ Desarrollar un instructivo de orientación para la implementación de una págin
 - Profundizar en los conceptos y fundamentos de ROS
 - Desarrollar una página web sencilla e interactiva
 - Vinculación entre ROS con la página web
+
+**ARQUITECTURA**
+
+La arquitectura se basa en Cliente - Servidor, el siguiente esquema muestra la como se da la transmisión de mensajes por protocolos HTTP:
+<p align='center'>
+    <img src="./CREDITOS/IMG/Arquitectura.png" alt="drawing"/>
+</p>
+
+**REQUISITOS**
+ - Tener instalado una versión de ROS compatible con Rosbridge Server, en este tutorial usaremos **Ros Melodic**
+ - Contar con una versión de Python 2.7 o superior.
