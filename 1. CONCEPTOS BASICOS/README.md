@@ -1,3 +1,10 @@
+# INTRODUCCIÓN 
+El siguiente topico relata algunos conceptos basicos que se utilizarán a la hora de redactar el tutorial. Se hace con el fin de que el lector posterior a leer este articulo se sienta un poco más en contexto con las tecnologias que trataremos durante todo el material pedagogico. 
+
+# MENÚ
+ - [**¿QUÉ ES ROS?**](# ¿QUÉ ES ROS?)
+ - [**¿QUÉ ES ROS?**](# INSTALACION DEL ROS)
+
 # ¿QUÉ ES ROS?
 
 Sistema Operativo Robótico (en inglés Robot Operating System, ROS) es un framework para el desarrollo de software para robots que provee la funcionalidad de un sistema operativo. ROS está basado en una arquitectura de grafos donde el procesamiento toma lugar en nodos que pueden recibir, enviar y multiplexar mensajes de sensores, controles, estados, planificaciones y actuadores, entre otros.
