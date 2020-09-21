@@ -1,2 +1,6 @@
-# ROS_EN_LA_WEB
-Repositorio didáctico para la configuración y el desligue de una aplicación web que trabaje con ROS (Robot Operating System))
+<p align='center'>
+    <img src="../CREDITOS/IMG/qa/titulo.png" alt="drawing"/>
+</p>
+
+# INTRODUCCIÓN
+En el siguiente topico vamos a realizar las configuraciones que debemos tener antes de comenzar a comunicar a ROS con una pagina web. 
