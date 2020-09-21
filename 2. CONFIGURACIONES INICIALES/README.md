@@ -10,6 +10,7 @@ En el siguiente topico vamos a realizar las configuraciones que debemos tener an
 - [**1. Creado nuestra pagina**](#1-creando-nuestra-pagina)
 - [**2. Descargar e instalar rosbridge server**](#2-descargando-rosbridge-server)
 - [**3. Descargando roslibjs**](#3-descargando-roslibjs)
+- [**4. Python - SimpleHttpServer**](#4-python---simplehttpserver)
 
 # 1. Creando nuestra pagina
 Nuestra primera configuración será crear una carpeta en donde guardaremos todo lo relacionado nuestra pagina web. Para ello nos ubicamos donde queremos guardar el proyecto y seguidamente crearemos la siguiente jerarquia de carpetas:
@@ -42,7 +43,7 @@ Para la descarga de rosbridge solo será necesario una instrucción en nuestra c
     
     sudo apt-get install ros-melodic-rosbridge-server
     
-para verificar que toda la instalación se encuentre correctamente ejecutaremos el ROS MELODIC (o el instalado), y seguidamente el siguiente comando:
+para verificar que toda la instalación se encuentre correctamente ejecutaremos el siguiente comando:
 
     roslaunch rosbridge_server rosbridge_websocket.launch
 
@@ -53,6 +54,7 @@ Si todo ha salido bien, la salida debería ser algo como esto:
     <p align='center'>Imagen 3. Ejecutando Rosbridge Server</p>
 </p>
 
+**Nota**: No es necesario tener el roscore en ejecución, ya que el comando ejecuta un nuevo roscore.
 
 # 3. Descargando roslibjs
 Para descargar roslibjs, existen dos formas de hacerlo. Mediante una etiqueta \<script\> en nuestra pagina web usando los repositorios oficiales de **robotwebtools.org** de manera remota o por el contrario, podemos descargar todo el repositorio oficial que se encuentra en su [github oficial](http://github.com/RobotWebTools/roslibjs). 
@@ -76,5 +78,19 @@ Si finalmente hemos decidido que nuestro robot (o donde se encuentre nuestro ros
 
 <p align='center'>
     <img src="../CREDITOS/IMG/configuraciones-iniciales/robotwebtools-repositorio.png" alt="drawing"/>
-    <p align='center'>Imagen 2. Archivos para copiar en la carpeta lib</p>
+    <p align='center'>Imagen 4. Librerias JS del repositorio de RobotWebTools</p>
 </p>
+
+# 4. Python - SimpleHTTPServer
+
+El módulo SimpleHTTPServer que viene con Python es un servidor HTTP simple que proporciona controladores de solicitud GET y HEAD estándar. Una ventaja del servidor HTTP integrado es que no es necesario instalar ni configurar nada, lo único que se necesita es tener Python instalado. De esta manera, vamos poder publicar nuestra pagina web. Lo siguiente que haremos es abrir una terminal en nuestra carpeta raiz y vamos a ejecutar el siguiente comando:
+
+	python -m SimpleHTTPServer 7000;
+	
+Finalmente, podemos observar como se abre nuestra pagina web en la dirección: localhost:7000
+
+<p align='center'>
+    <img src="../CREDITOS/IMG/configuraciones-iniciales/demo-simplehttpserver.gif" alt="drawing"/>
+    <p align='center'>Imagen 5. Demostración de SimpleHTTPServer</p>
+</p>
+
