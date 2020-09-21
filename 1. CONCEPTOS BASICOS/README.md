@@ -7,8 +7,8 @@ El siguiente topico relata algunos conceptos basicos que se utilizarán a la hor
 
 # MENÚ
  - [**Instalar Ros (Melodic)**](#instalación-del-ros)
- - [**¿Qué es ros?**](#qué-es-ros)
- - [**¿Qué es rosbridge?**](#instalacion-del-ros)
+ - [**¿Qué es Ros?**](#qué-es-ros)
+ - [**¿Qué es Rosbridge?**](#qué-es-rosbridge)
  - [**¿Qué es HTTP?**](#instalacion-del-ros)
  - [**Python - SimpleHttpServer**](#instalacion-del-ros)
  - [****](#instalacion-del-ros)
@@ -50,6 +50,13 @@ El paquete rosbash package provee un conjunto de herramientas que aumentan la fu
 
 - roslaunch:
 Es una herramienta usada para ejecutar múltiples nodos ROS de forma local o remota, de igual forma es usado para configurar parámetros en un servidor de parámetros ROS. Los archivos de configuración roslaunch , cuyo código esta escrito usando XML pueden de forma sencilla automatizar complejos procesos de arranque y configuraciones con un solo comando. Las secuencias de comandos dentro de archivos roslaunch pueden anidar dentro de ellas llamadas a otras secuencias de comandos roslaunch, inicio de nodos ROS en máquinas específicas y hasta reiniciar procesos que han caído durante esta.
+
+# ¿QUÉ ES ROSBRIDGE?
+
+Segun la pagina oficial de ROS, Rosbridge proporciona una funcionalidad JSON API a ROS para programas que no son ROS. Hay una variedad de interfaces que interactúan con rosbridge, incluido un servidor WebSocket para que los navegadores web interactúen. Rosbridge_suite es un metapaquete que contiene rosbridge, varios paquetes de interfaz para rosbridge como un paquete WebSocket y paquetes de ayuda.
+
+A continuacion se encuentra el instructivo el cual se divide en 3 partes fundamentales como son su protocolo, su implemenacion y para finalizar su forma de instalacion:
+`<link>` : <http://wiki.ros.org/rosbridge_suite>
 
 
 
