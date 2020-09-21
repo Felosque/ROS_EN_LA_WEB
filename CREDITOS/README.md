@@ -4,7 +4,7 @@
  - [ ] 
 
 **WEBGRAFÍA**
- - [ ] 
+ - Cómo utilizar SimpleHTTPServer
 
 **PROGRAMAS AYUDANTES**
  - [ ] Lucidchart (Permitirnos hacer graficos del proyecto)
