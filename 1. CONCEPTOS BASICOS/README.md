@@ -2,8 +2,8 @@
 El siguiente topico relata algunos conceptos basicos que se utilizarán a la hora de redactar el tutorial. Se hace con el fin de que el lector posterior a leer este articulo se sienta un poco más en contexto con las tecnologias que trataremos durante todo el material pedagogico. 
 
 # MENÚ
- - [**¿QUÉ ES ROS?**](# ¿QUÉ ES ROS?)
- - [**¿QUÉ ES ROS?**](# INSTALACION DEL ROS)
+ - [**¿QUÉ ES ROS?**](#¿QUÉ ES ROS?)
+ - [**¿QUÉ ES ROS?**](#INSTALACION DEL ROS)
 
 # ¿QUÉ ES ROS?
 
