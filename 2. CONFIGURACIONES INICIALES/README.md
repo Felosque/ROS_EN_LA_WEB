@@ -7,9 +7,9 @@ En el siguiente topico vamos a realizar las configuraciones que debemos tener an
 
 # MENU
 
-- [**1. Creado nuestra pagina**]()
-- [**2. Descargar e instalar rosbridge server**](#1-descargando-rosbridge-server)
-- [**3. Descargando roslibjs**]()
+- [**1. Creado nuestra pagina**](#1-creando-nuestra-pagina)
+- [**2. Descargar e instalar rosbridge server**](#2-descargando-rosbridge-server)
+- [**3. Descargando roslibjs**](#3-descargando-roslibjs)
 
 # 1. Creando nuestra pagina
 Nuestra primera configuración será crear una carpeta en donde guardaremos todo lo relacionado nuestra pagina web. Para ello nos ubicamos donde queremos guardar el proyecto y seguidamente crearemos la siguiente jerarquia de carpetas:
