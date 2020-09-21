@@ -3,7 +3,9 @@ El siguiente topico relata algunos conceptos basicos que se utilizarán a la hor
 
 # MENÚ
  - [**¿Qué es ros?**](#qué-es-ros)
- - [**Instalar Ros**](#instalación-del-ros)
+ - [**Instalar Ros (Melodic)**](#instalacion-del-ros)
+ - [**¿Qué es rosbridge?**](#instalacion-del-ros)
+ - [**¿Qué es HTTP?**](#instalacion-del-ros)
 
 # ¿QUÉ ES ROS?
 
