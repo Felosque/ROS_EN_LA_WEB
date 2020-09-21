@@ -7,13 +7,17 @@ En el siguiente topico vamos a realizar las configuraciones que debemos tener an
 
 # MENU
 
-- [**1. Descargando rosbridge server**]()
-- [**2. **]()
+- [**1. Descargar e instalar rosbridge server**](#1-descargando-rosbridge-server)
+- [**2. Descargando roslibjs**]()
 
 
 # 1. Descargando rosbridge server
 Para la descarga de rosbridge solo será necesario una instrucción en nuestra consola de comandos siempre y cuando cumplamos con los requisitos del tutorial que se encuentran en el readme de la carpeta raiz de este mismo repositorio. Para instalar rosbridge ejecutamos:
 
+ - [ ]
     ```
     sudo apt-get install ros-<rosdistro>-rosbridge-server
     ```
+
+# 1. Descargando roslibjs
+Para descargar roslibjs, existen dos formas de hacerlo. Inscrustandolo en nuestra pagina web mediante un script o por el contrario 
