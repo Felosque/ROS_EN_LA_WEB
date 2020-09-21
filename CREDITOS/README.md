@@ -1,2 +1,12 @@
-# ROS_EN_LA_WEB
-Repositorio didáctico para la configuración y el desligue de una aplicación web que trabaje con ROS (Robot Operating System))
+# CREDITOS
+
+**BIBLIOGRAFÍA**
+ - [ ] 
+
+**WEBGRAFÍA**
+ - [ ] 
+
+**PROGRAMAS AYUDANTES**
+ - [ ] https://app.lucidchart.com/ (Permitirnos hacer graficos del proyecto)
+ - [ ] ROS (Ser el nucleo de toda las iteraciones y ayudar al desarrollo de robots libre)
+ - [ ] Rosbridge Server (Permitirnos lanzar servicios web comunicando ROS por protocolos HTTTP)
