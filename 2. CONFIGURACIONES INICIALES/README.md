@@ -43,7 +43,7 @@ Si todo ha salido bien, la salida debería ser algo como esto:
 
 <p align='center'>
     <img src="../CREDITOS/IMG/configuraciones-iniciales/consola-rosbridge.gif" alt="drawing"/>
-    <p align='center'>Imagen 2. Ejecutando Rosbridge Server</p>
+    <p align='center'>Imagen 3. Ejecutando Rosbridge Server</p>
 </p>
 
 
@@ -65,6 +65,9 @@ Esto nos permite acceder a los servidores de robotwebtools y agregar el reposito
 
 **Repositorio Local (Opción 2)**
 
-Si finalmente hemos decidido que nuestro robot (o donde se encuentre nuestro rosbridge server) **no dispodrá de acceso a internet**, entonces deberemos descargar la librería necesaria en nuestra carpeta de scrips 
+Si finalmente hemos decidido que nuestro robot (o donde se encuentre nuestro rosbridge server) **no dispodrá de acceso a internet**, entonces deberemos descargar la librería necesaria, iremos al [github oficial de RobotWebTools](http://github.com/RobotWebTools/roslibjs), y allí descargaremos los dos archivos y los pondremos en nuestra carpeta lib de nuestro proyecto.
 
-
+<p align='center'>
+    <img src="../CREDITOS/IMG/configuraciones-iniciales/robotwebtools-repositorio.png" alt="drawing"/>
+    <p align='center'>Imagen 2. Archivos para copiar en la carpeta lib</p>
+</p>
