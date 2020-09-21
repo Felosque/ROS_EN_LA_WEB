@@ -18,6 +18,32 @@ Para la descarga de rosbridge solo será necesario una instrucción en nuestra c
 **NOTA:** Se debe remplazar \<rosdistro\> por nuestra distribución de ROS, en nuestra caso trabajaremos con melodic, por lo tanto nuestro comando queda de la siguiente forma:
     
     sudo apt-get install ros-melodic-rosbridge-server
+    
+para verificar que toda la instalación se encuentre correctamente ejecutaremos el ROS MELODIC (o el instalado), y seguidamente el siguiente comando:
+
+    roslaunch rosbridge_server rosbridge_websocket.launch
+
+Si todo ha salido bien, la salida debería ser algo como esto:
+
+<p align='center'>
+    <img src="../CREDITOS/IMG/configuraciones-iniciales/consola-rosbridge.gif" alt="drawing"/>
+    <p align='center'>Imagen 1. Ejecutando Rosbridge Server</p>
+</p>
+
 
 # 1. Descargando roslibjs
-Para descargar roslibjs, existen dos formas de hacerlo. Mediante una etiqueta \<script\> en nuestra pagina web usando los repositorios oficiales de robotwebtools.org/ o por el contrario, podemos descargar todo el repositorio oficial que se encuentra en github github.com/RobotWebTools/roslibjs
+Para descargar roslibjs, existen dos formas de hacerlo. Mediante una etiqueta \<script\> en nuestra pagina web usando los repositorios oficiales de (http://robotwebtools.org/) o por el contrario, podemos descargar todo el repositorio oficial que se encuentra en github (http://github.com/RobotWebTools/roslibjs). Debes pensar bien cual metodo utilizar, ya que por ejemplo, si queremos configurar un robot que no se encuentra conectado a internet, la primera opción **no** nos sirve, si por el contrario el robot sí tiene acceso a internet, podemos evitar descargar todo el paquete de roslibjs.
+
+**1. Primera Opción (Repositorio Remoto)**
+Si hemos optado por la primera opción, solo tendremos que agregar la siguiente etiqueta en cada pagina de nuestra aplicación web:
+```
+<head>
+	<script type="text/javascript" src="https://static.robotwebtools.org/roslibjs/current/roslib.min.js">
+	</script>
+</head>
+```
+Esto nos permite acceder a los servidores de robotwebtools y agregar el repositorio de manera remota. De esta manera no tendremos que tener las librerias descargadas, aunque debemos tener en cuenta que las librerias se actualizarán solas, y puede haber casos en que el codigo que creemos quede inservible.
+
+**1. Segunda Opción (Repositorio Local)**
+
+
