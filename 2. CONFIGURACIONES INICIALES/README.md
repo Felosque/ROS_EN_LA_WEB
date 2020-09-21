@@ -76,5 +76,19 @@ Si finalmente hemos decidido que nuestro robot (o donde se encuentre nuestro ros
 
 <p align='center'>
     <img src="../CREDITOS/IMG/configuraciones-iniciales/robotwebtools-repositorio.png" alt="drawing"/>
-    <p align='center'>Imagen 2. Archivos para copiar en la carpeta lib</p>
+    <p align='center'>Imagen 4. Librerias JS del repositorio de RobotWebTools</p>
 </p>
+
+# 4. Python - SimpleHTTPServer
+
+El módulo SimpleHTTPServer que viene con Python es un servidor HTTP simple que proporciona controladores de solicitud GET y HEAD estándar. Una ventaja del servidor HTTP integrado es que no es necesario instalar ni configurar nada, lo único que se necesita es tener Python instalado. De esta manera, vamos poder publicar nuestra pagina web. Lo siguiente que haremos es abrir una terminal en nuestra carpeta raiz y vamos a ejecutar el siguiente comando:
+
+	python -m SimpleHTTPServer 7000;
+	
+Finalmente, podemos observar como se abre nuestra pagina web en la dirección: localhost:7000
+
+<p align='center'>
+    <img src="../CREDITOS/IMG/configuraciones-iniciales/demo-simplehttpserver.gif" alt="drawing"/>
+    <p align='center'>Imagen 5. Demostración de SimpleHTTPServer</p>
+</p>
+
