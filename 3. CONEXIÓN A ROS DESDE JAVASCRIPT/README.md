@@ -19,7 +19,7 @@ Para comenzar, aprenderemos a importar la librería de roslibjs, para ello iremo
 Recordemos que en nuestro caso, hemos descargado las librerías correspondientes en la carpeta lib de nuestro proyecto. Finalmente nuestro index.html, quedaría de esta manera:
 
 <p align='center'>
-    <img src="../CREDITOS/IMG/configuraciones-iniciales/import-libreria.png" alt="drawing"/>
+    <img src="../CREDITOS/IMG/conexion-ros/import-libreria.png" alt="drawing"/>
     <p align='center'>Imagen 1. Importando librería roslibjs a nuestro index.html</p>
 </p>
 
