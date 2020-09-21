@@ -20,4 +20,4 @@ Para la descarga de rosbridge solo será necesario una instrucción en nuestra c
     sudo apt-get install ros-melodic-rosbridge-server
 
 # 1. Descargando roslibjs
-Para descargar roslibjs, existen dos formas de hacerlo. Inscrustandolo en nuestra pagina web mediante un script o por el contrario 
+Para descargar roslibjs, existen dos formas de hacerlo. Mediante una etiqueta \<script\> en nuestra pagina web usando los repositorios oficiales de robotwebtools.org/ o por el contrario, podemos descargar todo el repositorio oficial que se encuentra en github github.com/RobotWebTools/roslibjs
