@@ -2,10 +2,22 @@
 El siguiente topico relata algunos conceptos basicos que se utilizarán a la hora de redactar el tutorial. Se hace con el fin de que el lector posterior a leer este articulo se sienta un poco más en contexto con las tecnologias que trataremos durante todo el material pedagogico. 
 
 # MENÚ
+ - [**Instalar Ros (Melodic)**](#instalación-del-ros)
  - [**¿Qué es ros?**](#qué-es-ros)
- - [**Instalar Ros (Melodic)**](#instalacion-del-ros)
  - [**¿Qué es rosbridge?**](#instalacion-del-ros)
  - [**¿Qué es HTTP?**](#instalacion-del-ros)
+ - [**Python - SimpleHttpServer**](#instalacion-del-ros)
+ - [****](#instalacion-del-ros)
+
+# INSTALACIÓN DEL ROS
+
+Para iniciar, Ros debe de ser instalado el sistema operativo Ubuntu, es recomendable usar las versiones 18.04 para implementar el ROS Melodic o 16.04 para implementar el ROS Kinetic. A continuacion se encuentran los respectivos instructivos de instalacion de las versiones de ROS mencionadas:
+
+- Melodic:
+`<link>` : <http://wiki.ros.org/melodic/Installation/Ubuntu>
+
+- Kinetic
+`<link>` : <http://wiki.ros.org/kinetic/Installation/Ubuntu>
 
 # ¿QUÉ ES ROS?
 
@@ -34,16 +46,6 @@ El paquete rosbash package provee un conjunto de herramientas que aumentan la fu
 
 - roslaunch:
 Es una herramienta usada para ejecutar múltiples nodos ROS de forma local o remota, de igual forma es usado para configurar parámetros en un servidor de parámetros ROS. Los archivos de configuración roslaunch , cuyo código esta escrito usando XML pueden de forma sencilla automatizar complejos procesos de arranque y configuraciones con un solo comando. Las secuencias de comandos dentro de archivos roslaunch pueden anidar dentro de ellas llamadas a otras secuencias de comandos roslaunch, inicio de nodos ROS en máquinas específicas y hasta reiniciar procesos que han caído durante esta.
-
-# INSTALACION DEL ROS
-
-Para iniciar, Ros debe de ser instalado el sistema operativo Ubuntu, es recomendable usar las versiones 18.04 para implementar el ROS Melodic o 16.04 para implementar el ROS Kinetic. A continuacion se encuentran los respectivos instructivos de instalacion de las versiones de ROS mencionadas:
-
-- Melodic:
-`<link>` : <http://wiki.ros.org/melodic/Installation/Ubuntu>
-
-- Kinetic
-`<link>` : <http://wiki.ros.org/kinetic/Installation/Ubuntu>
 
 
 
