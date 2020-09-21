@@ -3,7 +3,7 @@
 </p>
 
 # INTRODUCCIÓN
-En el siguiente topico vamos a realizar un script de conexión, quien será el que nos permita enviar y recibir información del rosbridge server. Para ello vamos a importar primero las libreras que previamente descargamos en la sección de [2. Configuraciones Iniciales](../2.%20CONFIGURACIONES%20INICIALES). Seguidamente crearemos un script conexión que nos ayudará a conectar con ROS y finalmente haremos las pruebas pertinentes para verificar que existe una conexión.
+En el siguiente topico vamos a realizar un script de conexión, quien será el que nos permita enviar y recibir información del rosbridge server. Para ello vamos a importar primero las libreras que previamente descargamos en la sección de ["descargando librerías"](../2.%20CONFIGURACIONES%20INICIALES#3-descargando-roslibjs). Seguidamente crearemos un script conexión que nos ayudará a conectar con ROS y finalmente haremos las pruebas pertinentes para verificar que existe una conexión.
 
 # Menú
  - [**1. Importando Librerias**](#1-importando-librerias)
