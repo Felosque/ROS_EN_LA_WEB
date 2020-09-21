@@ -19,6 +19,13 @@ Nuestra primera configuración será crear una carpeta en donde guardaremos todo
     <p align='center'>Imagen 1. Creación de carpetas necesarias para el proyecto</p>
 </p>
 
+La principal funcionalidad de cada carpeta es separar por capas nuestro codigo, de esta manera vamos a ser mucho más ordenados y podremos encontrar nuestros archivos facilmente. Ahora vamos a explicar que debe ir en cada carpeta que se ve en la imagen 1:
+
+ - CSS: Van los archivos de Cascading Style Sheets, son estos archivos los que nos permitiran darle colores y forma a nuestra pagina.
+ - LIB: En la carpeta lib guardaremos todo lo relacionado a librerias y/o dependencias del proyecto
+ - SCRIPTS: En scripts guardaremos todos nuestros scripts propios, por ejemplo; conexiones, talker's, listener's
+ - VIEWS: En views guardaremos todo lo relacionado a vistas de nuestros proyectos, por ejemplo; archivos html, php... etc.
+
 Una vez creado todas las carpetas, procedemos a editar el archivo index.html (si no lo ha creado, creelo). Lo unico que haremos será crear la estructura base de HTML que nos ayudará para comezar. El archivo deberá quedar algo así:
 
 <p align='center'>
