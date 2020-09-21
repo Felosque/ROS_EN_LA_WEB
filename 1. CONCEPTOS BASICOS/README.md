@@ -11,7 +11,7 @@ El siguiente topico relata algunos conceptos basicos que se utilizarán a la hor
  - [**Herramientas del ROS**](#herramientas-del-ros)
  - [**¿Qué es Rosbridge?**](#qué-es-rosbridge)
  - [**¿Qué es HTTP?**](#qué-es-http)
- - [**Python - SimpleHttpServer**](#instalacion-del-ros)
+ - [**Python - SimpleHttpServer**](#Python---SimpleHttpServer)
  - [****](#instalacion-del-ros)
 
 # INSTALACIÓN DEL ROS
@@ -71,6 +71,7 @@ HTTP de HyperText Transfer Protocol (Protocolo de transferencia de hipertexto) e
 
 Clientes y servidores se comunican intercambiando mensajes individuales (en contraposición a las comunicaciones que utilizan flujos continuos de datos). Los mensajes que envía el cliente, normalmente un navegador Web, se llaman peticiones, y los mensajes enviados por el servidor se llaman respuestas.
 
+# PYTHON - SimpleHttpServer
 
-
+SimpleHttpServer - Manejador de solicitudes HTTP simple
 
