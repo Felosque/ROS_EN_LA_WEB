@@ -14,14 +14,10 @@ En el siguiente topico vamos a realizar las configuraciones que debemos tener an
 # 1. Descargando rosbridge server
 Para la descarga de rosbridge solo será necesario una instrucción en nuestra consola de comandos siempre y cuando cumplamos con los requisitos del tutorial que se encuentran en el readme de la carpeta raiz de este mismo repositorio. Para instalar rosbridge ejecutamos:
 
-    ```
     sudo apt-get install ros-<rosdistro>-rosbridge-server
-    ```
 **NOTA:** Se debe remplazar <rosdistro> por nuestra distribución de ROS, en nuestra caso trabajaremos con melodic, por lo tanto nuestro comando queda de la siguiente forma:
     
-    ```
     sudo apt-get install ros-melodic-rosbridge-server
-    ```
 
 # 1. Descargando roslibjs
 Para descargar roslibjs, existen dos formas de hacerlo. Inscrustandolo en nuestra pagina web mediante un script o por el contrario 
