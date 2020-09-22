@@ -1,0 +1,37 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Mi pagina web con ROS</title>
+        <script type="text/javascript" src="../lib/roslib.min.js"></script>
+        <script type="text/javascript" src="../scripts/conexion.js"></script>
+        <script type="text/javascript" src="../scripts/movimientoTortuga.js"></script>
+    </head>
+
+    <body>
+        <h1>Moviendo la tortuga</h1>
+
+        <span>Velocidad Lineal: </span>
+        <input type="number" id="velocidadL"  min="-1" max="1"><br>
+        <span>Velocidad Angular: </span>
+        <input type="number" id="velocidadA"  min="-1" max="1">
+        <br>
+
+        <p>Movimientos:</p>
+        <div>
+            <button onclick="moverAdelante()" style="margin: 0px 0 0 40px;">Avanzar</button><br>
+            <button onclick="moverIzquierda()" style="margin: 10px 0 0 0px;">Izquierda</button>
+            <button onclick="moverDerecha()">Derecha</button><br>
+            <button onclick="moverAtras()" style="margin: 10px 0 0 30px;">Retroceder</button>
+        </div>
+        <br>
+        <div>
+            <span id="df">Distancia frente: </span><br>
+            <span id="db">Distancia atrás: </span><br>
+            <span id="dl">Distancia izquierda: </span><br>
+            <span id="dr">Distancia derecha: </span><br>
+        </div>
+
+    </body>
+
+</html>
