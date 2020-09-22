@@ -3,4 +3,4 @@
 </p>
 
 # INTRODUCCIÓN
-En el siguiente topico vamos a realizar las configuraciones que debemos tener antes de comenzar a comunicar a ROS con una pagina web. 
+En el siguiente topico se estarán poniendo preguntas y respuestas que vayan surgiendo a raíz de las personas que prueben el repositorio
