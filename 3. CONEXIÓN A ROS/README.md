@@ -90,7 +90,7 @@ Para hacer las pruebas y verificar que la conexión no tenga problemas, lo prime
     <p align='center'>Imagen 4. Ejecutando Rosbridge Server</p>
 </p>
 
-Una vez que tenemos ejecutando el servidor de rosbridge, vamos a poner en linea nuestra pagina web, para ello ejecutamos el siguiente comando en nuestra carpeta raíz del proyecto:
+Una vez que tenemos ejecutando el servidor de rosbridge, vamos a poner en linea nuestra pagina web, para ello ejecutamos el siguiente comando en nuestra carpeta raíz del proyecto :
 
 	python -m SimpleHTTPServer 7000;
     
