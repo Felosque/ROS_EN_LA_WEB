@@ -6,7 +6,7 @@
 El siguiente topico relata algunos conceptos basicos que se utilizarán a la hora de redactar el tutorial. Se hace con el fin de que el lector posterior a leer este articulo se sienta un poco más en contexto con las tecnologias que trataremos durante todo el material pedagogico. 
 
 # MENÚ
- - [**Instalar Ros (Melodic)**](#instalación-del-ros)
+
  - [**¿Qué es Ros?**](#qué-es-ros)
  - [**Herramientas del ROS**](#herramientas-del-ros)
  - [**Comandos del ROS**](#comandos-del-ros)
@@ -14,16 +14,6 @@ El siguiente topico relata algunos conceptos basicos que se utilizarán a la hor
  - [**¿Qué es HTTP?**](#qué-es-http)
  - [**Python - SimpleHttpServer**](#Python---SimpleHttpServer)
  - [****](#instalacion-del-ros)
-
-# INSTALACIÓN DEL ROS
-
-Para iniciar, Ros debe de ser instalado el sistema operativo Ubuntu, es recomendable usar las versiones 18.04 para implementar el ROS Melodic o 16.04 para implementar el ROS Kinetic. A continuacion se encuentran los respectivos instructivos de instalacion de las versiones de ROS mencionadas:
-
-- Melodic:
-`<link>` : <http://wiki.ros.org/melodic/Installation/Ubuntu>
-
-- Kinetic
-`<link>` : <http://wiki.ros.org/kinetic/Installation/Ubuntu>
 
 # ¿QUÉ ES ROS?
 
