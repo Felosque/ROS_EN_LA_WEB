@@ -57,11 +57,11 @@ Ahora explicando un poco el codigo que hemos implementado:
         messageType : 'std_msgs/String'
     });
     
-ros : ros => Lo que hace es implementar la conexión que hemos creado en la sección 3.
+**ros : ros** => Lo que hace es implementar la conexión que hemos creado en la sección 3.
 
-name: '/mensaje' => Es el nombre del topico al que queremos subscribirnos, es importante que sea igual.
+**name: '/mensaje'** => Es el nombre del topico al que queremos subscribirnos, es importante que sea igual.
 
-messageType : 'std_msgs/String' => representa el tipo de dato que nos llegará, ¿recuerdas cuando hicimos rostopic info /mensaje?, es ese tipo de mensaje.
+**messageType : 'std_msgs/String'** => representa el tipo de dato que nos llegará, ¿recuerdas cuando hicimos rostopic info /mensaje?, es ese tipo de mensaje.
 
     listener.subscribe(function(message) {
         var elem = document.getElementById('mensaje');
