@@ -56,24 +56,19 @@ Uno de los mejores simuladores de robots que existen en la actualidad es Gazebo.
 
 ![](https://www.researchgate.net/publication/327351995/figure/fig3/AS:666002945748995@1535798884323/Simulation-results-of-using-the-toolbox-in-a-bin-picking-task-on-the-Gazebo-simulator.png)
 
-Instalación
+Instalación `<link>` : <http://gazebosim.org/tutorials?tut=install_ubuntu>
 
 1. Configure su computadora para aceptar software de packages.osrfoundation.org.
 
-`$ sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'`
+`$ sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable lsb_release -cs main" > /etc/apt/sources.list.d/gazebo-stable.list' `
 
+2. Claves de configuración
 
+`$ wget https://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add - `
 
+3. Instala Gazebo.
 
-
-
-
-
-
-
-
-
-
+`$ sudo apt-get update `
 
 
  - [ ] Rviz (Permitirnos hacer mapeo de entornos en 3D)
