@@ -44,7 +44,7 @@
 
 **PROGRAMAS AYUDANTES**
  
- - [ ] ROS (Ser el nucleo de toda las iteraciones y ayudar al desarrollo de robots libre)
+ - [ ] **ROS (Ser el nucleo de toda las iteraciones y ayudar al desarrollo de robots libre)**
  
 Robot Operating System (ROS) es un middleware robótico, es decir, una colección de frameworks para el desarrollo de software de robots. ROS se desarrolló originariamente en 2007 bajo el nombre de switchyard por el Laboratorio de Inteligencia Artificial de Stanford para dar soporte al proyecto del Robot con Inteligencia Artificial de Stanford (STAIR2). Desde 2008, el desarrollo continuó principalmente en Willow Garage, un instituto de investigación robótico con más de veinte instituciones colaborando en un modelo de desarrollo federado.
 
@@ -60,7 +60,7 @@ Para iniciar, Ros debe de ser instalado el sistema operativo Ubuntu, es recomend
 - Kinetic
 `<link>` : <http://wiki.ros.org/kinetic/Installation/Ubuntu>
  
- - [ ] Gazebo (Permitirnos hacer simuacion 3D)
+ - [ ] **Gazebo (Permitirnos hacer simuacion 3D)**
  
 La simulación de robots es una herramienta esencial en la caja de herramientas de todo robotista. Un simulador bien diseñado permite probar rápidamente algoritmos, diseñar robots, realizar pruebas de regresión y entrenar el sistema de inteligencia artificial utilizando escenarios realistas. 
 
@@ -89,7 +89,7 @@ Para  trabajar con el simulado del robot Turtlebot en Gazebo y otros ficheros qu
 ![](https://www.oreilly.com/library/view/ros-robotics-by/9781788479592/graphics/B08463_03_17.jpg)
 
 
- - [ ] Rviz (Permitirnos hacer mapeo de entornos en 3D)
+ - [ ] **Rviz (Permitirnos hacer mapeo de entornos en 3D)**
  
  rviz es una herramienta de visualización en 3D para aplicaciones de ROS. Proporciona una vista del modelo de robot, captura la información de los sensores del robot y reproduce los datos capturados. Puede mostrar datos de cámara, láseres y dispositivos 3D y 2D, como imágenes y nubes de puntos.
 
