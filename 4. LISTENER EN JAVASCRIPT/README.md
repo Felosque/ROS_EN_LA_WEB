@@ -102,9 +102,9 @@ Lo que hará el codigo es crear un botón que me va a dirigir hacia la vista del
 # Probando el listener
 Finalmente hemos creado nuestro listener, es hora de probarlo y ver si funciona. 
 
- - [**1.**] Lo primero que haremos será lanzar nuestro talker que hemos creado en el punto 1. 
- - [**2.**] Luego de haber ejecutado el talker, vamos a inciar nuestra aplicación y accederemos a ella.
- - [**3.**] Finalmente daremos clic en el botón que hemos creado y veremos los mensajes que llegan a la pagina.
+ - [**1**] Lo primero que haremos será lanzar nuestro talker que hemos creado en el punto 1. 
+ - [**2**] Luego de haber ejecutado el talker, vamos a inciar nuestra aplicación y accederemos a ella.
+ - [**3**] Finalmente daremos clic en el botón que hemos creado y veremos los mensajes que llegan a la pagina.
  
  
 <p align='center'>
