@@ -70,6 +70,12 @@ Instalación `<link>` : <http://gazebosim.org/tutorials?tut=install_ubuntu>
 
 `$ sudo apt-get update `
 
+Para  trabajar con el simulado del robot Turtlebot en Gazebo y otros ficheros que intervienen en la simulación, descargamos del repositiorio oficial las últimas versiones de estos componentes: `<link>` : <https://moodle2017-18.ua.es/moodle/mod/book/view.php?id=2046&chapterid=1>
+
+`$ git clone https://github.com/turtlebot/turtlebot_simulator `
+
+![](https://moodle2017-18.ua.es/moodle/pluginfile.php/2399/mod_book/chapter/1/gazebo_turtlebot.png)
+
 
  - [ ] Rviz (Permitirnos hacer mapeo de entornos en 3D)
  - [ ] Rosbridge Server (Permitirnos lanzar servicios web comunicando ROS por protocolos HTTTP)
