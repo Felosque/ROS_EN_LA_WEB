@@ -39,7 +39,28 @@
 **PROGRAMAS AYUDANTES**
  
  - [ ] ROS (Ser el nucleo de toda las iteraciones y ayudar al desarrollo de robots libre)
+ 
  - [ ] Gazebo (Permitirnos hacer simuacion 3D)
+La simulación de robots es una herramienta esencial en la caja de herramientas de todo robotista. Un simulador bien diseñado permite probar rápidamente algoritmos, diseñar robots, realizar pruebas de regresión y entrenar el sistema de inteligencia artificial utilizando escenarios realistas. Gazebo ofrece la capacidad de simular de forma precisa y eficiente poblaciones de robots en entornos complejos de interior y exterior. Al alcance de su mano se encuentra un motor de física robusto, gráficos de alta calidad y convenientes interfaces programáticas y gráficas. Lo mejor de todo es que Gazebo es gratis con una comunidad vibrante.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  - [ ] Rviz (Permitirnos hacer mapeo de entornos en 3D)
  - [ ] Rosbridge Server (Permitirnos lanzar servicios web comunicando ROS por protocolos HTTTP)
  - [ ] Lucidchart (Permitirnos hacer graficos del proyecto)
