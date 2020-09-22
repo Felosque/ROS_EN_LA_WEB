@@ -5,6 +5,9 @@
 # INTRODUCCIÓN
 En el siguiente topico realizaremos nuestro primer listener, de esta manera podremos leer los datos que se encuentran en nuestro ROS y mostrarlos en la pagina web. Para realizar la practica del Listener, haremos un publisher en Python que lance un mensaje cada cierto tiempo, luego desde nuestra pagina web nos suscribiremos al publisher y finalmente lo mostraremos en la pagina web.
 
+# REQUISITOS PREVIOS
+ - [] Tener inicializando nuestro rosbridge server
+ - [] Tener inicializada nuestra pagina con SimpleHttpServer
 
 # MENÚ
  - [**Creando publisher en Python**](#creando-el-publisher-en-python)
