@@ -31,16 +31,9 @@
  - Catkin 
  `<link>` : <http://wiki.ros.org/catkin>
  
- - Cómo utilizar SimpleHTTPServer `<link>` : <https://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver>
- - Cómo utilizar SimpleHTTPServer `<link>` : <https://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver>
- - Cómo utilizar SimpleHTTPServer `<link>` : <https://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver>
- - Cómo utilizar SimpleHTTPServer `<link>` : <https://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver>
- - Cómo utilizar SimpleHTTPServer `<link>` : <https://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver>
- - Cómo utilizar SimpleHTTPServer `<link>` : <https://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver>
- - Cómo utilizar SimpleHTTPServer `<link>` : <https://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver>
- - Cómo utilizar SimpleHTTPServer `<link>` : <https://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver>
- - Cómo utilizar SimpleHTTPServer `<link>` : <https://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver>
-
+ - Cómo utilizar SimpleHTTPServer 
+ `<link>` : <https://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver>
+ 
 
 **PROGRAMAS AYUDANTES**
  - [ ] Lucidchart (Permitirnos hacer graficos del proyecto)
