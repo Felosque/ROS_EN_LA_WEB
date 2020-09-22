@@ -50,6 +50,29 @@ El paquete rosbash package provee un conjunto de herramientas que aumentan la fu
 - roslaunch:
 Es una herramienta usada para ejecutar múltiples nodos ROS de forma local o remota, de igual forma es usado para configurar parámetros en un servidor de parámetros ROS. Los archivos de configuración roslaunch , cuyo código esta escrito usando XML pueden de forma sencilla automatizar complejos procesos de arranque y configuraciones con un solo comando. Las secuencias de comandos dentro de archivos roslaunch pueden anidar dentro de ellas llamadas a otras secuencias de comandos roslaunch, inicio de nodos ROS en máquinas específicas y hasta reiniciar procesos que han caído durante esta.
 
+# COMANDOS DEL ROS
+
+- roscd: cambia a un directorio de paquete o pila (ej. roscd stage)
+- roscore: ejecuta todo lo necesario para que dar soporte de ejecución al sistema completo de ROS. Siempre tiene que estar ejecutándose para permitir que se comuniquen los nodos. Permite ejecutarse en un determinado puerto (ej. roscore o roscore -p 1234)
+- roscreate-pkg: crea e inicializa un paquete. Se tiene que ejecutar desde uno de los directorios válidos para que contengan paquetes. El formato de ejecución es: roscreate-pkg paquete [depen1 ...] donde depen1 es una dependencia. Por ejemplo, si el paquete que estamos creando va a usar los mensajes estándar y va a usar código c++, debemos indicar las dependencias std_msgs y roscpp. 
+- rosnode: nos proporciona información sobre un nodo. Disponemos de las siguientes opciones:
+rosnode info nodo (muestra información sobre el nodo)
+rosnode kill nodo (mata ese proceso)
+rosnode list (muestra los nodos ejecutándose)
+rosnode machine maquina (muestra los nodos que se están ejecutando en la máquina).
+rosnode ping nodo (comprueba la conectividad del nodo).
+- rosrun: permite ejecutar cualquier aplicación de un paquete sin necesidad de cambiar a su directorio. Podemos pasarle parámetros con _my_param:=value (ej. rosrun stage stageros) stage es el paquete y stageros es la aplicación que ejecutamos.
+- rostopic: permite obtener información sobre un tópico.
+rostopic bw (muestra el ancho de banda consumido por un tópico)
+rostopic echo (imprime datos del tópico por la salida estándar)
+rostopic find (encuentra un tópico)
+rostopic info (imprime información de un tópico)
+rostopic list (imprime información sobre los tópicos activos)
+rostopic pub (publica datos a un tópico activo)
+rostopic type (imprime el tipo de información de un tópico)
+- roswtf: permite chequear si algo va mal. Ejecutamos roscd y después roswtf.
+
+
 # ¿QUÉ ES ROSBRIDGE?
 
 Segun la pagina oficial de ROS, Rosbridge proporciona una funcionalidad JSON API a ROS para programas que no son ROS. Hay una variedad de interfaces que interactúan con rosbridge, incluido un servidor WebSocket para que los navegadores web interactúen. Rosbridge_suite es un metapaquete que contiene rosbridge, varios paquetes de interfaz para rosbridge como un paquete WebSocket y paquetes de ayuda.
