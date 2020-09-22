@@ -1,5 +1,5 @@
 <p align='center'>
-    <img src="../CREDITOS/IMG/lista-topicos/titulo.png" alt="drawing"/>
+    <img src="../CREDITOS/IMG/proyecto/titulo.png" alt="drawing"/>
 </p>
 
 # INTRODUCCIÓN
