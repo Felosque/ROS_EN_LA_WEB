@@ -60,7 +60,7 @@ Para iniciar, Ros debe de ser instalado el sistema operativo Ubuntu, es recomend
 - Kinetic
 `<link>` : <http://wiki.ros.org/kinetic/Installation/Ubuntu>
  
- - [ ] **Gazebo (Permitirnos hacer simuacion 3D)**
+ - [ ] **Gazebo (Permitirnos hacer simulacion 3D)**
  
 La simulación de robots es una herramienta esencial en la caja de herramientas de todo robotista. Un simulador bien diseñado permite probar rápidamente algoritmos, diseñar robots, realizar pruebas de regresión y entrenar el sistema de inteligencia artificial utilizando escenarios realistas. 
 
