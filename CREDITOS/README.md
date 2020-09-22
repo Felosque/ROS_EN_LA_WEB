@@ -37,6 +37,9 @@
  
 
 **PROGRAMAS AYUDANTES**
- - [ ] Lucidchart (Permitirnos hacer graficos del proyecto)
+ 
  - [ ] ROS (Ser el nucleo de toda las iteraciones y ayudar al desarrollo de robots libre)
+ - [ ] Gazebo (Permitirnos hacer simuacion 3D)
+ - [ ] Rviz (Permitirnos hacer mapeo de entornos en 3D)
  - [ ] Rosbridge Server (Permitirnos lanzar servicios web comunicando ROS por protocolos HTTTP)
+ - [ ] Lucidchart (Permitirnos hacer graficos del proyecto)
