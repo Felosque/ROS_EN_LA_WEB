@@ -14,6 +14,12 @@
  - Ros-gazebo. una valiosa Herramienta de Vanguardia para el Desarrollo de la Robótica 
  `<link>` : <https://hemeroteca.unad.edu.co/index.php/publicaciones-e-investigacion/article/view/1593>
  
+ - Gazebo Simulator 
+ `<link>` : <https://robologs.net/2016/06/25/gazebo-simulator-simular-un-robot-nunca-fue-tan-facil/>
+ 
+ - Instalar Gazebo usando paquetes de Ubuntu 
+ `<link>` : <http://gazebosim.org/tutorials?tut=install_ubuntu>
+ 
  - Rviz ROS 
  `<link>` : <http://wiki.ros.org/rviz/UserGuide>
  
@@ -48,7 +54,7 @@ La simulación de robots es una herramienta esencial en la caja de herramientas 
 
 Uno de los mejores simuladores de robots que existen en la actualidad es Gazebo. Es un programa open source distibuido bajo la licencia Apache 2.0 que lleva largo tiempo utilizándose en ámbitos de investigación en robótica e Inteligencia Artificial. Tiene una interfaz muy amigable, con poca curva de aprendizaje y una comunidad que crece a diario. Gazebo ofrece la capacidad de simular de forma precisa y eficiente poblaciones de robots en entornos complejos de interior y exterior. Al alcance de su mano se encuentra un motor de física robusto, gráficos de alta calidad y convenientes interfaces programáticas y gráficas. Lo mejor de todo es que Gazebo es gratis con una comunidad vibrante.
 
-![](https://youtu.be/yVICMC_BAiU)
+![](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.researchgate.net%2Fpublication%2F327351995%2Ffigure%2Ffig3%2FAS%3A666002945748995%401535798884323%2FSimulation-results-of-using-the-toolbox-in-a-bin-picking-task-on-the-Gazebo-simulator.png&imgrefurl=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FSimulation-results-of-using-the-toolbox-in-a-bin-picking-task-on-the-Gazebo-simulator_fig3_327351995&tbnid=rS9O4VsXZ07elM&vet=12ahUKEwjE3Y7Ayv3rAhVeQDABHXJrCCgQMygAegUIARCPAQ..i&docid=VmTAsXJepx1ClM&w=850&h=664&q=gazebo%20simulator&ved=2ahUKEwjE3Y7Ayv3rAhVeQDABHXJrCCgQMygAegUIARCPAQ)
 
 
 
