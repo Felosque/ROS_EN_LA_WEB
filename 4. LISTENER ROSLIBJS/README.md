@@ -118,3 +118,5 @@ Finalmente hemos creado nuestro listener, es hora de probarlo y ver si funciona.
     <p align='center'>Imagen 8. Pruebas del funcionamiento del listener</p>
 </p>
 
+Ahora ya sabemos como escuchar a nuestro robot desde la web.
+
