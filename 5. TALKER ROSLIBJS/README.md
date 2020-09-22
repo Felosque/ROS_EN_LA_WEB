@@ -5,8 +5,15 @@
 # INTRODUCCIÓN
 En el siguiente tema realizaremos un talker en roslibjs para poder enviar mensajes a nuestro ros desde nuestro sitio web. Para ello nos vamos a basar en el topico de "/cmd_vel", enviado velocidades de diferentes magnitudes y mostrandolas en nuestro ros por medio de rostopic echo.
 
-# MENÚ
+# REQUISITOS PREVIOS
+ - [] Tener inicializando nuestro rosbridge server
+ - [] Tener inicializada nuestra pagina con SimpleHttpServer
 
+# MENÚ
+ - [**Desplegando talker**](#desplegando-el-talker)
+ - [**Creando el script talker**](#creando-el-script-talker)
+ - [**Creando vista para el talker**](#creando-la-vista-para-el-talker)
+ - [**Probando el script**](#probando-el-script)
 
 # Desplegando el talker
 En esta oportunidad vamos a desplegar el topico "cmd_vel" por medio del TurtleBot3, para ello vamos a ejecutar la simulación en Gazebo con el siguiente comando:
