@@ -13,7 +13,6 @@ El siguiente topico relata algunos conceptos basicos que se utilizarán a la hor
  - [**¿Qué es Rosbridge?**](#qué-es-rosbridge)
  - [**¿Qué es HTTP?**](#qué-es-http)
  - [**Python - SimpleHttpServer**](#Python---SimpleHttpServer)
- - [****](#instalacion-del-ros)
 
 # ¿QUÉ ES ROS?
 
