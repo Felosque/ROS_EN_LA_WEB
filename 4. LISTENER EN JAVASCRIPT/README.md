@@ -41,7 +41,62 @@ Como podemos ver, nos lanza el tipo de mensaje: std_msgs/String, esto será muy 
 
 Ahora que tenemos el talker personalizado, vamos a realizar nuestro listener en roslibjs.
 
-# Script listener roslibjs
+# Creando script listener
+Ahora que tenemos un publicador, vamos a recibirlo desde la web. Para ello primero vamos a nuestra carpeta scripts para crear nuestro archivo listener.js
 
+<p align='center'>
+    <img src="../CREDITOS/IMG/listener/script-listener.png" alt="drawing"/>
+    <p align='center'>Imagen 4. Creando archivo listener.js en la carpeta scripts</p>
+</p>
+
+Ahora explicando un poco el codigo que hemos implementado:
+
+    var listener = new ROSLIB.Topic({
+        ros : ros,
+        name : '/mensaje',
+        messageType : 'std_msgs/String'
+    });
+    
+**ros : ros** => Lo que hace es implementar la conexión que hemos creado en la sección 3.
+
+**name: '/mensaje'** => Es el nombre del topico al que queremos subscribirnos, es importante que sea igual.
+
+**messageType : 'std_msgs/String'** => representa el tipo de dato que nos llegará, ¿recuerdas cuando hicimos rostopic info /mensaje?, es ese tipo de mensaje.
+
+    listener.subscribe(function(message) {
+        var elem = document.getElementById('mensaje');
+        elem.innerHTML = message.data;
+        console.log('Received message on ' + listener.name + ': ' + message.data);
+    });
+    
+Esta será la función que se llamará siempre que ROS nos dé una respuesta, eso significa que ahí deberá ir la logica que queramos implementar en nuestra pagina web. Lo que estamos haciendo simplemente es cambiar el texto de la etiqueta que tenga el id='mensaje' (esto para mostrar en la pagina en tiempo real lo que nos dice ROS) y tambien mostrando el mensaje por consola.
+
+# Modificando nuestras vistas
+Ahora vamos a modificar un poco nuestras vistas para que sea mucho más facil acceder a ellas una vez entremos a nuestra pagina. Empezaremos creando nuestra vista para el listener en nuestra carpeta de views:
+
+<p align='center'>
+    <img src="../CREDITOS/IMG/listener/listenervista.png" alt="drawing"/>
+    <p align='center'>Imagen 5. Creando archivo ListenerVista.html en la carpeta views</p>
+</p>
+
+Ahora que tenemos el archivo, vamos a insertar el siguiente codigo html dentro de él:
+
+<p align='center'>
+    <img src="../CREDITOS/IMG/listener/codigo-listenerhtml.png" alt="drawing"/>
+    <p align='center'>Imagen 5. Contenido del archivo ListenerVista.html</p>
+</p>
+
+En la vista del listener, podemos ver que hemos implementado en nuestro \<head\> el script que hemos creado anteriormente llamado (listener.js), además de ello agregamos en el \<body\> una etiqueta \<p\> quien será la encargada de mostrarnos lo que nos mande nuestro ROS por medio del script listener.js.
+
+Para acceder facilmente al archivo y no tener que estar copiando la url de la vista en nuestro navegador, vamos a crear un botón en la vista principal (index.html) que nos lleve directamente a la pagina correspondiente, para ello en nuestro archivo index.html de nuestra carpeta raíz, agregamos el siguiente codigo en la parte del body:
+
+    <button onclick="location.href='./views/ListenerVista.html'">Ejemplo listener</button>
+
+Lo que hará el codigo es crear un botón que me va a dirigir hacia la vista del listener, facilitando así las cosas. Finalmente si desplegamos la aplicación, veremos lo siguiente:
+
+<p align='center'>
+    <img src="../CREDITOS/IMG/listener/pagina-listener.gif" alt="drawing"/>
+    <p align='center'>Imagen 6. Producto final de las modificaciónes que hemos hecho</p>
+</p>
 
 # Probando el listener
