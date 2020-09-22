@@ -68,8 +68,7 @@ Es una herramienta usada para ejecutar múltiples nodos ROS de forma local o rem
 
 Segun la pagina oficial de ROS, Rosbridge proporciona una funcionalidad JSON API a ROS para programas que no son ROS. Hay una variedad de interfaces que interactúan con rosbridge, incluido un servidor WebSocket para que los navegadores web interactúen. Rosbridge_suite es un metapaquete que contiene rosbridge, varios paquetes de interfaz para rosbridge como un paquete WebSocket y paquetes de ayuda.
 
-A continuacion se encuentra el instructivo el cual se divide en 3 partes fundamentales como son su protocolo, su implemenacion y para finalizar su forma de instalacion:
-`<link>` : <http://wiki.ros.org/rosbridge_suite>
+A continuación se encuentra el instructivo el cual se divide en 3 partes fundamentales como son su protocolo, su implementación y para finalizar su forma de instalación: <link> : http://wiki.ros.org/rosbridge_suite
 
 # ¿QUÉ ES HTTP?
 
