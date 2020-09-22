@@ -76,5 +76,16 @@ Para  trabajar con el simulado del robot Turtlebot en Gazebo y otros ficheros qu
 
 
  - [ ] Rviz (Permitirnos hacer mapeo de entornos en 3D)
- - [ ] Rosbridge Server (Permitirnos lanzar servicios web comunicando ROS por protocolos HTTTP)
- - [ ] Lucidchart (Permitirnos hacer graficos del proyecto)
+ 
+ rviz es una herramienta de visualización en 3D para aplicaciones de ROS. Proporciona una vista del modelo de robot, captura la información de los sensores del robot y reproduce los datos capturados. Puede mostrar datos de cámara, láseres y dispositivos 3D y 2D, como imágenes y nubes de puntos.
+
+![](https://raw.githubusercontent.com/ros-visualization/rviz/melodic-devel/images/splash.png)
+
+RVIZ se puede usar para mostrar lecturas de sensores, datos devueltos por la visión estereoscópica (Cloud Point), hacer SLAM (localización y mapeo simultáneo) evitando obstáculos, etc. Esta herramienta dispone así mismo, de muchísimas opciones de configuración.
+
+Instalación `<link>` : <http://wiki.ros.org/rosbridge_suite>
+
+`$ sudo apt-get install ros- <rosdistro> -rosbridge-server `
+
+![](https://user-images.githubusercontent.com/14684752/48455828-a53d5a80-e7f7-11e8-9f36-e4cb183d79e5.png)
+
