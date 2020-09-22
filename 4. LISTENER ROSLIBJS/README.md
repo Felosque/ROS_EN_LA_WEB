@@ -5,9 +5,15 @@
 # INTRODUCCIÓN
 En el siguiente topico realizaremos nuestro primer listener, de esta manera podremos leer los datos que se encuentran en nuestro ROS y mostrarlos en la pagina web. Para realizar la practica del Listener, haremos un publisher en Python que lance un mensaje cada cierto tiempo, luego desde nuestra pagina web nos suscribiremos al publisher y finalmente lo mostraremos en la pagina web.
 
+# REQUISITOS PREVIOS
+ - [] Tener inicializando nuestro rosbridge server
+ - [] Tener inicializada nuestra pagina con SimpleHttpServer
 
 # MENÚ
-
+ - [**Creando publisher en Python**](#creando-el-publisher-en-python)
+ - [**Creando script listener**](#creando-script-listener)
+ - [**Modificando vistas**](#modificando-nuestras-vistas)
+ - [**Probando nuestro listener**](#probando-el-listener)
 
 # Creando el publisher en Python
 Para empezar, crearemos un publicador para ROS, de esta manera podremos enviar un mensaje personalizado a la pagina. El publicador simplemente será un script en Python que lance un mensaje cada 10hz, quedaría de esta manera:
@@ -83,7 +89,7 @@ Ahora que tenemos el archivo, vamos a insertar el siguiente codigo html dentro d
 
 <p align='center'>
     <img src="../CREDITOS/IMG/listener/codigo-listenerhtml.png" alt="drawing"/>
-    <p align='center'>Imagen 5. Contenido del archivo ListenerVista.html</p>
+    <p align='center'>Imagen 6. Contenido del archivo ListenerVista.html</p>
 </p>
 
 En la vista del listener, podemos ver que hemos implementado en nuestro \<head\> el script que hemos creado anteriormente llamado (listener.js), además de ello agregamos en el \<body\> una etiqueta \<p\> quien será la encargada de mostrarnos lo que nos mande nuestro ROS por medio del script listener.js.
@@ -96,7 +102,19 @@ Lo que hará el codigo es crear un botón que me va a dirigir hacia la vista del
 
 <p align='center'>
     <img src="../CREDITOS/IMG/listener/pagina-listener.gif" alt="drawing"/>
-    <p align='center'>Imagen 6. Producto final de las modificaciónes que hemos hecho</p>
+    <p align='center'>Imagen 7. Producto final de las modificaciónes que hemos hecho</p>
 </p>
 
 # Probando el listener
+Finalmente hemos creado nuestro listener, es hora de probarlo y ver si funciona. 
+
+ - [**1**] Lo primero que haremos será lanzar nuestro talker que hemos creado en el punto 1. 
+ - [**2**] Luego de haber ejecutado el talker, vamos a inciar nuestra aplicación y accederemos a ella.
+ - [**3**] Finalmente daremos clic en el botón que hemos creado y veremos los mensajes que llegan a la pagina.
+ 
+ 
+<p align='center'>
+    <img src="../CREDITOS/IMG/listener/pruebas-listener.gif" alt="drawing"/>
+    <p align='center'>Imagen 8. Pruebas del funcionamiento del listener</p>
+</p>
+
