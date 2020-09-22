@@ -9,6 +9,7 @@ El siguiente topico relata algunos conceptos basicos que se utilizarán a la hor
  - [**Instalar Ros (Melodic)**](#instalación-del-ros)
  - [**¿Qué es Ros?**](#qué-es-ros)
  - [**Herramientas del ROS**](#herramientas-del-ros)
+ - [**Comandos del ROS**](#comandos-del-ros)
  - [**¿Qué es Rosbridge?**](#qué-es-rosbridge)
  - [**¿Qué es HTTP?**](#qué-es-http)
  - [**Python - SimpleHttpServer**](#Python---SimpleHttpServer)
@@ -52,16 +53,16 @@ Es una herramienta usada para ejecutar múltiples nodos ROS de forma local o rem
 
 # COMANDOS DEL ROS
 
-- [ ]roscd: cambia a un directorio de paquete o pila (ej. roscd stage)
-- [ ]roscore: ejecuta todo lo necesario para que dar soporte de ejecución al sistema completo de ROS. Siempre tiene que estar ejecutándose para permitir que se comuniquen los nodos. Permite ejecutarse en un determinado puerto (ej. roscore o roscore -p 1234)
-- [ ]roscreate-pkg: crea e inicializa un paquete. Se tiene que ejecutar desde uno de los directorios válidos para que contengan paquetes. El formato de ejecución es: roscreate-pkg paquete [depen1 ...] donde depen1 es una dependencia. Por ejemplo, si el paquete que estamos creando va a usar los mensajes estándar y va a usar código c++, debemos indicar las dependencias std_msgs y roscpp. 
-- [ ]rosnode: nos proporciona información sobre un nodo. Disponemos de las siguientes opciones:
+- [ ] roscd: cambia a un directorio de paquete o pila (ej. roscd stage)
+- [ ] roscore: ejecuta todo lo necesario para que dar soporte de ejecución al sistema completo de ROS. Siempre tiene que estar ejecutándose para permitir que se comuniquen los nodos. Permite ejecutarse en un determinado puerto (ej. roscore o roscore -p 1234)
+- [ ] roscreate-pkg: crea e inicializa un paquete. Se tiene que ejecutar desde uno de los directorios válidos para que contengan paquetes. El formato de ejecución es: roscreate-pkg paquete [depen1 ...] donde depen1 es una dependencia. Por ejemplo, si el paquete que estamos creando va a usar los mensajes estándar y va a usar código c++, debemos indicar las dependencias std_msgs y roscpp. 
+- [ ] rosnode: nos proporciona información sobre un nodo. Disponemos de las siguientes opciones:
 - rosnode info nodo (muestra información sobre el nodo)
 - rosnode kill nodo (mata ese proceso)
 - rosnode list (muestra los nodos ejecutándose)
 - rosnode machine maquina (muestra los nodos que se están ejecutando en la máquina).
 - rosnode ping nodo (comprueba la conectividad del nodo).
-- [ ]rosrun: permite ejecutar cualquier aplicación de un paquete sin necesidad de cambiar a su directorio. Podemos pasarle parámetros con _my_param:=value (ej. rosrun stage stageros) stage es el paquete y stageros es la aplicación que ejecutamos.
+- [ ] rosrun: permite ejecutar cualquier aplicación de un paquete sin necesidad de cambiar a su directorio. Podemos pasarle parámetros con _my_param:=value (ej. rosrun stage stageros) stage es el paquete y stageros es la aplicación que ejecutamos.
 - rostopic: permite obtener información sobre un tópico.
 - rostopic bw (muestra el ancho de banda consumido por un tópico)
 - rostopic echo (imprime datos del tópico por la salida estándar)
@@ -70,7 +71,7 @@ Es una herramienta usada para ejecutar múltiples nodos ROS de forma local o rem
 - rostopic list (imprime información sobre los tópicos activos)
 - rostopic pub (publica datos a un tópico activo)
 - rostopic type (imprime el tipo de información de un tópico)
-- [ ]roswtf: permite chequear si algo va mal. Ejecutamos roscd y después roswtf.
+- [ ] roswtf: permite chequear si algo va mal. Ejecutamos roscd y después roswtf.
 
 
 # ¿QUÉ ES ROSBRIDGE?
