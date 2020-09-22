@@ -24,5 +24,5 @@ La arquitectura se basa en Cliente - Servidor, el siguiente esquema muestra la c
 # **CREDITOS**
  - [ ] Internet por permitir el libre aprendizaje.
  - [ ] Luis Felipe Londoño Medina (recopilador de información y creador de scripts)
- - [ ] Cesar David Salamanca (recopilador de información y creador de scripts)
+ - [ ] César David Salamanca (recopilador de información y creador de scripts)
  - [ ] Para ver todos los creditos del correspondiente repositorio, visitar la carpeta CREDITOS
