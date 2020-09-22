@@ -1,9 +1,10 @@
 # CREDITOS
 
 **BIBLIOGRAFÍA**
- - [ ] 
-
+ - Federico Cuesta Rojo (2014). Integracion de Ros (ROBOT OPERATING SYSTEM). Recuperado el 15 de septiembre de 2020, del Sitio web del Departamento de Sistemas y Automatica Universidad de la Sevilla: `<link>` : <http://bibing.us.es/proyectos/abreproy/12186/fichero/PFC+Alvaro+Romero+Gandul+Revisado.pdf>
+ 
 **WEBGRAFÍA**
+ 
  - ¿Qué es un ROS? 
  `<link>` : <https://www.compliance.com.co/que-es-un-ros/>
  
