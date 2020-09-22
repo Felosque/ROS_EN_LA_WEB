@@ -6,8 +6,8 @@
 En el siguiente tema realizaremos un talker en roslibjs para poder enviar mensajes a nuestro ros desde nuestro sitio web. Para ello nos vamos a basar en el topico de "/cmd_vel", enviado velocidades de diferentes magnitudes y mostrandolas en nuestro ros por medio de rostopic echo.
 
 # REQUISITOS PREVIOS
- - [] Tener inicializando nuestro rosbridge server
- - [] Tener inicializada nuestra pagina con SimpleHttpServer
+ - [ ] Tener inicializando nuestro rosbridge server
+ - [ ] Tener inicializada nuestra pagina con SimpleHttpServer
 
 # MENÚ
  - [**Desplegando talker**](#desplegando-el-talker)
