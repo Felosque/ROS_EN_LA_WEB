@@ -153,3 +153,4 @@ Cuando inicie el gazebo, podemos acceder a nuestra pagina web a la vista que hem
     <p align='center'>Imagen 3. Demostración del proyecto</p>
 </p>
 
+En la imagen anterior podemos observar como movemos el robot, además le damos unas velocidades.
