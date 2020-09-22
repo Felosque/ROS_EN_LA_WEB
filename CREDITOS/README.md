@@ -54,8 +54,6 @@ La simulación de robots es una herramienta esencial en la caja de herramientas 
 
 Uno de los mejores simuladores de robots que existen en la actualidad es Gazebo. Es un programa open source distibuido bajo la licencia Apache 2.0 que lleva largo tiempo utilizándose en ámbitos de investigación en robótica e Inteligencia Artificial. Tiene una interfaz muy amigable, con poca curva de aprendizaje y una comunidad que crece a diario. Gazebo ofrece la capacidad de simular de forma precisa y eficiente poblaciones de robots en entornos complejos de interior y exterior. Al alcance de su mano se encuentra un motor de física robusto, gráficos de alta calidad y convenientes interfaces programáticas y gráficas. Lo mejor de todo es que Gazebo es gratis con una comunidad vibrante.
 
-![](https://www.researchgate.net/publication/327351995/figure/fig3/AS:666002945748995@1535798884323/Simulation-results-of-using-the-toolbox-in-a-bin-picking-task-on-the-Gazebo-simulator.png)
-
 Instalación `<link>` : <http://gazebosim.org/tutorials?tut=install_ubuntu>
 
 1. Configure su computadora para aceptar software de packages.osrfoundation.org.
@@ -74,7 +72,7 @@ Para  trabajar con el simulado del robot Turtlebot en Gazebo y otros ficheros qu
 
 `$ git clone https://github.com/turtlebot/turtlebot_simulator `
 
-![](https://moodle2017-18.ua.es/moodle/pluginfile.php/2399/mod_book/chapter/1/gazebo_turtlebot.png)
+![](https://www.oreilly.com/library/view/ros-robotics-by/9781788479592/graphics/B08463_03_17.jpg)
 
 
  - [ ] Rviz (Permitirnos hacer mapeo de entornos en 3D)
