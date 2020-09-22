@@ -7,5 +7,5 @@ Finalmente vamos a realizar un proyecto con todo lo que hemos aprendido hasta ho
 
 <p align='center'>
     <img src="../CREDITOS/IMG/proyecto/demostracionProyecto.gif" alt="drawing"/>
-    <p align='center'>Imagen 1. Demostración </p>
+    <p align='center'>Imagen 1. Demostración del proyecto</p>
 </p>
