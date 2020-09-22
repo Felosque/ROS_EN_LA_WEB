@@ -20,17 +20,66 @@ El siguiente topico relata algunos conceptos basicos que se utilizarán a la hor
 Sistema Operativo Robótico (en inglés Robot Operating System, ROS) es un framework para el desarrollo de software para robots que provee la funcionalidad de un sistema operativo. ROS está basado en una arquitectura de grafos donde el procesamiento toma lugar en nodos que pueden recibir, enviar y multiplexar mensajes de sensores, controles, estados, planificaciones y actuadores, entre otros.
 
 La funcionalidad del núcleo ROS se expande con una variedad de herramientas que permiten a los desarrolladores: visualizar y recopilar información, navegar de manera sencilla la estructura de paquetes y crear código para automatizar tareas complejas y otros procesos de configuración. La suma de estas herramientas aumentan las posibilidades de los sistemas que utilizan ROS, proveyendo a estos de soluciones simples a tareas comunes en el desarrollo dentro de la robótica. Estas herramientas son provistas por medio de paquetes como otro algoritmo, pero a diferencia de brindar implementaciones de hardware o algoritmos para tareas del robot, estos paquetes proveen tareas y herramientas separadas que las incluidas por el núcleo de la mayoritaria de las instalaciones modernas de ROS.
+ 
+ ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ros_logo.svg/1200px-Ros_logo.svg.png)
+ 
+Para iniciar, Ros debe de ser instalado el sistema operativo Ubuntu, es recomendable usar las versiones 18.04 para implementar el ROS Melodic o 16.04 para implementar el ROS Kinetic. A continuacion se encuentran los respectivos instructivos de instalacion de las versiones de ROS mencionadas:
+
+- Melodic:
+`<link>` : <http://wiki.ros.org/melodic/Installation/Ubuntu>
+
+- Kinetic
+`<link>` : <http://wiki.ros.org/kinetic/Installation/Ubuntu>
+ 
 
 # HERRAMIENTAS DEL ROS
 
 - rviz:
-Es una herramienta de simulación y visualización 3d para robots, el ambiente en el que estos se desempeñan y la información de sensores que estos generan dentro de este. Es altamente configurable y posee distintos tipos de plugins y formatos de visualización.
+ 
+Rviz es una herramienta de visualización en 3D para aplicaciones de ROS. Proporciona una vista del modelo de robot, captura la información de los sensores del robot y reproduce los datos capturados. Puede mostrar datos de cámara, láseres y dispositivos 3D y 2D, como imágenes y nubes de puntos.
+
+![](https://raw.githubusercontent.com/ros-visualization/rviz/melodic-devel/images/splash.png)
+
+RVIZ se puede usar para mostrar lecturas de sensores, datos devueltos por la visión estereoscópica (Cloud Point), hacer SLAM (localización y mapeo simultáneo) evitando obstáculos, etc. Esta herramienta dispone así mismo, de muchísimas opciones de configuración.
+
+Instalación `<link>` : <http://wiki.ros.org/rosbridge_suite>
+
+`$ sudo apt-get install ros- <rosdistro> -rosbridge-server `
+
+![](https://user-images.githubusercontent.com/14684752/48455828-a53d5a80-e7f7-11e8-9f36-e4cb183d79e5.png)
+
 
 - rosbag:
 Es una herramienta de línea de comandos para grabar y reproducir datos de mensajes y comunicaciones dentro de ROS. rosbag utiliza un formato de archivo llamado bags, que registra los mensajes de ROS mediante escuchar los ROS topic y grabando los mensajes en la medida que son emitidos. Reproducir los mensajes desde bag es mayormente lo mismo que tener los ROS nodes originales reproduciendo esta. Esto hace de bags una herramienta muy útil para capturar la información que posteriormente se puede usar analizar y posteriormente ser usada para el desarrollo de paquetes ROS por ejemplo. Mientas rosbag es una herramienta puramente de línea de comando, también posee una implementación rqt llamada rqt_bag que brinda una interfaces gráfica.
 
 - gazebo:
-Gazebo es un simulador de entornos 3D que posibilita evaluar el comportamiento de un robot en un mundo virtual. Permite, entre muchas otras opciones, diseñar robots de forma personalizada, crear mundos virtuales usando sencillas herramientas CAD e importar modelos ya creados. Además, es posible sincronizarlo con ROS de forma que los robots emulados publiquen la información de sus sensores en nodos, así como implementar una lógica y un control que dé ordenes al robot.
+ 
+La simulación de robots es una herramienta esencial en la caja de herramientas de todo robotista. Un simulador bien diseñado permite probar rápidamente algoritmos, diseñar robots, realizar pruebas de regresión y entrenar el sistema de inteligencia artificial utilizando escenarios realistas. 
+
+![](http://gazebosim.org/assets/logos/gazebo_horz_pos_small-3c54696c489a16ffe91a52e38e3cab0bcdaee04a82fb477412cf300fa61005ec.png)
+
+Uno de los mejores simuladores de robots que existen en la actualidad es Gazebo. Es un programa open source distibuido bajo la licencia Apache 2.0 que lleva largo tiempo utilizándose en ámbitos de investigación en robótica e Inteligencia Artificial. Tiene una interfaz muy amigable, con poca curva de aprendizaje y una comunidad que crece a diario. Gazebo ofrece la capacidad de simular de forma precisa y eficiente poblaciones de robots en entornos complejos de interior y exterior. Al alcance de su mano se encuentra un motor de física robusto, gráficos de alta calidad y convenientes interfaces programáticas y gráficas. Lo mejor de todo es que Gazebo es gratis con una comunidad vibrante.
+
+Instalación `<link>` : <http://gazebosim.org/tutorials?tut=install_ubuntu>
+
+1. Configure su computadora para aceptar software de packages.osrfoundation.org.
+
+`$ sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable lsb_release -cs main" > /etc/apt/sources.list.d/gazebo-stable.list' `
+
+2. Claves de configuración
+
+`$ wget https://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add - `
+
+3. Instala Gazebo.
+
+`$ sudo apt-get update `
+
+Para  trabajar con el simulado del robot Turtlebot en Gazebo y otros ficheros que intervienen en la simulación, descargamos del repositiorio oficial las últimas versiones de estos componentes: `<link>` : <https://moodle2017-18.ua.es/moodle/mod/book/view.php?id=2046&chapterid=1>
+
+`$ git clone https://github.com/turtlebot/turtlebot_simulator `
+
+![](https://www.oreilly.com/library/view/ros-robotics-by/9781788479592/graphics/B08463_03_17.jpg)
+
 
 - catkin:
 Es la herramienta de compilación de ROS actual, habiendo reemplazado a rosbuild. catkin esta basada en CMake, es multiplataforma, de código abierto e independiente del lenguaje de programación.
