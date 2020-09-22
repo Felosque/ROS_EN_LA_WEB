@@ -1,0 +1,35 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Mi pagina web con ROS</title>
+        <script type="text/javascript" src="../lib/roslib.min.js"></script>
+        <script type="text/javascript" src="../scripts/conexion.js"></script>
+        <script type="text/javascript" src="../scripts/talker.js"></script>
+    </head>
+
+    <body>
+        <h1>Talker CON ROS</h1>
+
+        <span>Linear X: </span>
+        <input type="number" id="lx"  min="-1" max="1">
+
+        <span>Linear Y: </span>
+        <input type="number" id="ly"  min="-1" max="1">
+
+        <span>Linear Z: </span>
+        <input type="number" id="lz"  min="-1" max="1">
+        <br>
+        <span>Angular X: </span>
+        <input type="number" id="ax"  min="-1" max="1">
+
+        <span>Angular Y: </span>
+        <input type="number" id="ay"  min="-1" max="1">
+
+        <span>Angular Z: </span>
+        <input type="number" id="az"  min="-1" max="1">
+        <br>
+        <button onclick="enviarVelocidad()">Enviar velocidades</button>
+    </body>
+
+</html>
