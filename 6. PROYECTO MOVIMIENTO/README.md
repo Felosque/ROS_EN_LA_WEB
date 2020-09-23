@@ -16,7 +16,9 @@ Finalmente vamos a realizar un proyecto con todo lo que hemos aprendido hasta ho
  - [] Tener instalado el TurttleBot3 o similar que permite el envio de mensajes a cmd_vel
 
 # MENÚ
- - [**Creando publisher en Python**](#creando-el-publisher-en-python)
+ - [**Creando la vista principal**](#creando-la-vista-principal)
+ - [**Creando nuestro script**](#creando-nuestro-script)
+ - [**Creando nuestro script**](#probando-nuestro-codigo)
 
 # Creando la vista principal
 Lo primero que haremos será crear la vista principal que nos permitirá mover mediante unos botones al robot, para ello vamos a nuestra carpeta views y creamos la vista llamada MoviendoTortuga.html una vez allí insertaremos el siguiente codigo:
